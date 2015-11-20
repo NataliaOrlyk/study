@@ -5,21 +5,19 @@ package book.chapter_3.task_1;
  */
 public class Pet {
     int age;
-    float weight;
-    float height;
+    float height, weight;
     String color;
 
     public void sleep() {
         System.out.println("Спокойной ночи! До завтра!");
     }
+
     public void eat() {
         System.out.println("Я очень голоден, давайте перекусим чипсами");
     }
+
     public String say(String aWord) {
-        String petResponse = "Ну ладно!" + aWord;
-        return petResponse;
+        return "Ну ладно!" + aWord;
     }
-
-
 
 }

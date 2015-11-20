@@ -10,7 +10,6 @@ public class FishMaster {
         myFish.dive(3);
         myFish.sleep();
         myFish.say("Привет");
-
     }
 }
 

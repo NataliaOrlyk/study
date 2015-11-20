@@ -6,8 +6,6 @@ package book.chapter_3.task_2;
 public class Car {
 
     int distance;
-    int howlong ;
-
 
     public void start() {
 
@@ -20,8 +18,8 @@ public class Car {
 
     ;
 
-    public int drive(int howlong) {
-        distance = howlong * 60;
+    public int drive(int howLong) {
+        distance = howLong * 60;
         System.out.println("Wsy is " + distance + " km");
         return distance;
     }
