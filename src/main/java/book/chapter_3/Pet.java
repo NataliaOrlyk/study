@@ -10,13 +10,13 @@ public class Pet {
     String color;
 
     public void sleep() {
-        System.out.println("Спокойной ночи! До завтра!");
+        System.out.println("РЎРїРѕРєРѕР№РЅРѕР№ РЅРѕС‡Рё! Р”Рѕ Р·Р°РІС‚СЂР°!");
     }
     public void eat() {
-        System.out.println("Я очень голоден, давайте перекусим чипсами");
+        System.out.println("РЇ РѕС‡РµРЅСЊ РіРѕР»РѕРґРµРЅ, РґР°РІР°Р№С‚Рµ РїРµСЂРµРєСѓСЃРёРј С‡РёРїСЃР°РјРё");
     }
     public String say(String aWord) {
-        String petResponse = "Ну ладно!" + aWord;
+        String petResponse = "РќСѓ Р»Р°РґРЅРѕ!" + aWord;
         return petResponse;
     }
 

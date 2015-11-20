@@ -8,7 +8,7 @@ public class PetMaster {
         String petReaction;
         Pet myPet = new Pet();
         myPet.eat();
-        petReaction = myPet.say("×èê!! ×èðèê!!");
+        petReaction = myPet.say("Ð§Ð¸Ðº!! Ð§Ð¸Ñ€Ð¸Ðº!!");
         System.out.println(petReaction);
         myPet.sleep();
     }
