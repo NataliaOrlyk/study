@@ -1,4 +1,4 @@
-package book.chapter_3;
+package book.chapter_3.task_1;
 
 /**
  * Created by home on 20.11.2015.
@@ -9,5 +9,8 @@ public class FishMaster {
         myFish.dive(2);
         myFish.dive(3);
         myFish.sleep();
+        myFish.say("Привет");
+
     }
 }
+

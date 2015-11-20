@@ -1,4 +1,6 @@
-package book.chapter_3;
+package book.chapter_3.task_1;
+
+import book.chapter_3.task_1.Pet;
 
 /**
  * Created by home on 20.11.2015.
@@ -12,4 +14,5 @@ public class PetMaster {
         System.out.println(petReaction);
         myPet.sleep();
     }
+
 }

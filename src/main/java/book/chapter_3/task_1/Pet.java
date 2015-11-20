@@ -1,4 +1,4 @@
-package book.chapter_3;
+package book.chapter_3.task_1;
 
 /**
  * Created by home on 20.11.2015.
@@ -19,6 +19,7 @@ public class Pet {
         String petResponse = "Ну ладно!" + aWord;
         return petResponse;
     }
+
 
 
 }

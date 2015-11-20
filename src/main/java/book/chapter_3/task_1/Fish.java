@@ -1,4 +1,4 @@
-package book.chapter_3;
+package book.chapter_3.task_1;
 
 /**
  * Created by home on 20.11.2015.
@@ -11,7 +11,9 @@ public class Fish extends Pet {
                 + howDeep + " футов");
         System.out.println("Я на глубине "
                 + currentDepth + " футов ниже уровня моря");
-        return currentDepth;
+        return currentDepth;    }
+    public String say(String something){
+        return "Ты чё не знаешь, что рыбы не разговаривают?";
     }
 
 }
