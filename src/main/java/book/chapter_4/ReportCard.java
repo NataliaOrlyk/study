@@ -9,7 +9,7 @@ class ReportCard {
      * - результат теста и возвращает символ A, B, C or D в
      * зависимости от этого аргумента.
      */
-    public  char convertGrades(int testResult) {
+    public static char convertGrades(int testResult) {
         char grade;
         if (testResult >= 90) {
             grade = 'A';
@@ -22,11 +22,11 @@ class ReportCard {
         }
         return grade;
     }
-    public static void main(String[] args){
-        ReportCard rc = new ReportCard();
-        char yourGrade = rc.convertGrades(88);
+
+    public static void main(String[] args) {
+        char yourGrade = ReportCard.convertGrades(88);
         System.out.println("Ваша первая оценка " + yourGrade);
-        yourGrade = rc.convertGrades(79);
+        yourGrade = ReportCard.convertGrades(79);
         System.out.println("Ваша вторая оценка " + yourGrade);
         switch (yourGrade) {
             case 'A':
@@ -44,5 +44,5 @@ class ReportCard {
 
         }
     }
-    }
+}
 
